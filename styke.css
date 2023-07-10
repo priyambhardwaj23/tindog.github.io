@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url("https://media.istockphoto.com/id/1252380604/photo/note-paper-with-blood-donation-concept-on-red-background.jpg?s=612x612&w=0&k=20&c=fNez5pcNYKtY1b67gUxC117iZa5OGq5W2zPYW7uZ65I=");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+div.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 150%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px soid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding-left: 25px;
+}
+form#re{
+    margin: 100px;
+    margin-left: -100px;
+}
+tr{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+input#name{
+    width: 90%;
+    border: 1px solid #add;
+    border-radius: 3px;
+    outline: 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+div.sub{
+    text-align: center;
+}
